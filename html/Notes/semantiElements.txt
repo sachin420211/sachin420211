@@ -1,0 +1,11 @@
+
+23.03.24
+In HTML each and element have their own significance but some elements will not create much impact on UI but makes code efficient and SEO friendly. 
+All semantic elements are the block elements:-
+eg: header,footer,main,address,section,article etc..
+
+Attributes:
+      Every element will have some properties.Those are called attiributes.Eg: src,alt for img element,href,target for an element.
+      Every element can contain common attributes like class and id.
+      Element can contain multiple classes or multiple elements contain same class.
+      Element must contain only one id and it should be unique.

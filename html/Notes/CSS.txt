@@ -1,0 +1,39 @@
+
+25.03.24
+CSS(Cascading style sheets)
+These are used to include styling/designing into webpages.
+1997-CSS started.
+Now CSS3 exists.
+CSS can be written in three ways.Like
+  (1)Inline styling:
+  Inline CSS means in the line of html element,style will applied as a attribute.
+  //create a div with a small paragraph, make the div background color black and text color white.
+  <body>
+  <div style="background-color: black;color: white;">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, pariatur?</p>
+  </div>
+  </body>
+  Example:-
+  <h1 style="color:red">something</h1>
+  (2)Internal styling:
+  In the Internal styling in the head we include style element.
+  Internal styling means apply style as an element.
+  Example:
+  <style>
+  selector{
+    property-name:value;
+  }
+  </style>
+  //selectors can be directly tagnames like h1,div etc...,or classname like .class1, .class2 etc.. or id names like #id1,#id2..
+  (3)External styling:
+  We can write css in separate file with dot css extension and link that css into html file.
+  in first.css just write
+  .div{
+    background-color: yellow;
+    color: red;
+  }
+  body{
+    background-color: green;
+  }
+link this where you want to link
+<link rel="stylesheet" href="first.css"

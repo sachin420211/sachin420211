@@ -1,5 +1,7 @@
-#bd
-{
-    background: linear-gradient(to right red,blue
-    red,blue,red,blue);
-}
+.divv
+        {
+            background-color: yellow;
+        }
+        body{
+            background-color: green;
+        }

@@ -1,0 +1,9 @@
+
+27.03.24
+Forms in web pages are used to collect data from user.Like:-
+Contact
+Login
+Registration
+search
+review/feedback
+application
