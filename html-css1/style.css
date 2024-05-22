@@ -1,0 +1,48 @@
+@import url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMwAAADACAMAAAB/Pny7AAAAY1BMVEUiZpn///8eZJgpapyww9XI1eEAW5Q4cqAYYpcAVZDi6fBijLENX5W0xNZDdqMAWJH3+fsAUI2VsMnZ4usASYnt8fWgt800bp6Jp8JRf6h1mblVhq2/zt2pvtJxk7XQ2uWAob8/oUHUAAAFK0lEQVR4nO2d2bKrKhBAERVRSUSNUzQx//+VR3f2cM8+CeaGocFiPeQtVaxiEJumRcGdimHkKJhVnxLo45f3DLpJMrCe/8jwFjnbLysYtfxb5hBS6PbIQcPDl0w9OD3IVthQ32X4jUC3RR5y4x8yMXV6wtzBNF5l+HkHHbN0zZkvMjXZQccssHqRqQroZqihqBYZ15flL2gYoOwE3QpVnDIUpdCNUEUaoT08ZO6QGxp3MmWWSTOiZB8L8wJOUAjdBnXsSMXj8Xg8Ho/H4/EYBr+AE++1rChomGzTYZamhFkcEcYpzqtoil9hmg5tfz2SsrDy6AET1NYZD16HN/U8VTkuiHWjLs3/l8mPUTadUWlV/+CyekflS2jKC4ti3WW13WYhTc9sOelm50ZSZtXprFjdaFJLuyxkfWJB7zCJCfMX8xVDLwW4m9S4rLkIR+AQPsszVTJBEOcM9LHzleehhqyHXAcwbhW6LEOtgrQJI6UyoMlVWLlM0IPtBzTIBC1UWoIOmeAG1DdaZIIR5nmjRyZLQPYCemSCCWSB1iTDe4iBpkkGJjVRl0xwAHh2apPJruYHmjaZILKtZ+bu+IthuLZx88pGu7kanzVimTilv2EsTdPh8sJLUItN982GzJNxz0q0rZMNpl/U3pNZw7l5vDXYbq7ILL2TRBs2h9DwOHtfBtHuIrbJjoa7RkIG0XAjsHN1SGYZaeJVoDW83ZSSud9FeM5sxuEbORmUxiKZpjM7ziRl2CDsmsGlYbZ0jTDqfja7o5GVKXqRTOuWDA1FMpPZ1wBZGXQSTZrZbMxJWqacBf+vzV65kJZJD4L/Z6UBhR+kZYQrAHdMhp0F/w9ck8n3JLOnniF7mjOp6P+ZY0vzSfScmV2TEfw9mNzaAdBBJNO6tTcrLyIZw0FNSRlMhBlRR6dezlLh60zTuSRDQ2F4JnYnCLhAhDMmqBySwWQjhzB3JwiI2SjOIawNz38ZmS2X4GL6cu/bMpRcN05ouOlQ87syOA0vWzm3selDgPdkWEn67XNA85WwxDLTKf2H04nk0QuZ0LP5tAaxTBMdfjPVL+Z0AtSP0ZYHMBufMfpkQDKBdMnEpg9nNco0OUT2nCYZkHQzTTKGjzK0ymQI5rqGDhnT57I6ZZoj1DUa9TIZmIt6GcgimKplYsiCnmpl+AUm1VyHTNZT0Ct0KmWiEfhyozqZ+RpCX9RUJZPdOmgVVTJND94rqmTqM7GjXqykDG+aNkxtKX35vgxvsnrqj2VhPLH8KWIZnj2krucpqs4DTQurik5sXGwY80eMQ0eLwpqCBt9sXWxgD7GikMG/SB+d24SXsRUvYytexla8jK14GVvxMrbiZWzFy9iKl7EVL2MrXsZWvIyteBlb8TLWIpYp7Az3PwEj0a2R2LEP9VFRudaDYzKiQrrctQ91ikocA5Qok0NUfLp2zEU4zi5m71krgCbPqvrAJVu+D7s+uUDi2vT/gNweusCUXJUFs0f3YGeo7GRJMBv/GWkHR10WKP37UwfZmTrrskDIdfos9tkcxsKx7fJvMEtJNy4kpLQuxecd8JrlswcRj8fj8Xg8bmG67oZGQpTsZjeFEzS6F3d4AhsRzBVvHZAeRY5FhJ+TRqg5QTdCFacGBYnL7+v/gSYBcjNa94CiWmTqfbzqUlYvMtxwLXFNkDNfZII43MGsoeEcrDIc7nt86ijWsxW0RiCBvvmmEDKuR3joI2TfOT5t2P0ED91Puey5+/kOGN+P8O8yQYsctsHo8wT/D12HUkdy+sjQAAAAAElFTkSuQmCC);
+:root{
+    --primary:rgb(199, 81, 81);
+--secondary:orange;    
+}
+body{
+    
+    box-sizing: border-box;
+    font-family: raleway,sans-serif;
+    padding: 0px;
+    margin: 0px;
+
+}
+button{
+    background-color: ;
+    color: rgb(241, 17, 17);
+    padding: 10px 20px;
+    border-radius: 20px;
+    transform: all is ease;
+    
+
+}
+button :hover{
+    color: blue;
+}
+p{
+
+
+}
+
+header{
+    background-color: black;
+    color: white;
+    display: flax;
+    justify-content: space-between;
+
+}
+header ul{
+    display: flex;
+    gap: 10px;
+}
+ul li{
+    list-style-type: none;
+
+}
+a{
+    text-decoration: none;
+}

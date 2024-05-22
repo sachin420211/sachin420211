@@ -1,0 +1,24 @@
+
+Display Property:
+Display is used to Display Certain elements in a container :
+DisplayBlock--> Will make en elementsor elements in containerblock
+Display inline--> Willmake
+an elements or elements in a containe  inline
+
+*inline elements cannot hava height or width
+ 
+ To make elements inline and ise height or width /also
+
+
+
+
+
+
+
+
+
+
+
+ Display  flex:
+  Flex deals with two axes. main and cross axis 
+  main axis ---> where each elements

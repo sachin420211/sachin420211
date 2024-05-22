@@ -1,0 +1,2 @@
+selectors is a way to select an element into css stlyle.
+you can selecet an element using  

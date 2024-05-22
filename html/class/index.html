@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title">student Registration form</h1>
+    <form action="main.py">
+        <div>
+  <label for="">First Name</label>
+   <input type="text" id="fn" name="fname" placeholder="Enter first Name" required>
+
+   <label for="">Last Name</label>
+   <input type="text" id="ln" name="lname" placeholder="Enter Last Name">
+</div><br>
+
+<div>
+    <label for="em">Email</label>
+   <input type="text" id="em" placeholder="Enter Email">
+</div><br>
+
+<div>
+    <label for="pws">pasword</label>
+   <input type="password" id="pws" placeholder="password"minlength>
+</div><br>
+<div>
+    <label for="dob">Date of Birth:</label>
+   <input type="date" id="dob" placeholder="Date of Birth">
+</div><br>
+<div>
+    <label for="">Choose the Gender</label>
+   <input type="redio" name="gender" id="m" value="male"><lable for="m">male</lable>
+   <input type="redio" name="gender" id="m" value="female"><lable for="f">fimale</lable>
+</div><br>
+
+<div>
+    <label>languages known:</label>
+   <input type="checkbox" name="languages" id="en" value="englis"><lable for="m">Englis</lable>
+   <input type="checkbox" name="languages" id="te" value="telugu"><lable for="m">Telugu</lable>
+   <input type="checkbox" name="languages" id="en" value="Hindi"><lable for="m">Hindi</lable>
+</div><br>
+  <div>
+   <label>Choose the course</label>
+   <select name="" id="">
+<option value="">plese Choose</option>
+<option value="">BCA</option>
+<option value="">MBA</option>
+<option value="">B.tac</option>
+<option value="">Diploma</option>
+</select>
+</div><br>
+<div>
+    <label>Choose the Subject</label>
+    <select name="" id="">
+ <option value="">plese Choose</option>
+ <option value="Maths">maths</option>
+        <optgroup label="Commen">
+ <option value="physics">physics</option>
+ <option value="vlsi">vlsi</option>
+        </optgroup>
+ <option value="ED">ED</option>
+ <option value="DSP">DSP/option>
+ <option value="DBMS">DBMS</option>
+ <option value="Chemistry">Chemistry</option>
+ </div><br>
+<div>
+ <label for="">Enter FeedBack:</label>
+   <textarea name="" id="" cols="30" rows="5"></textarea>
+ </div><br>
+ <p>All</p>  
+ <div>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+</div>
+
+
+
+
+    </form>
+</body>
+</html>

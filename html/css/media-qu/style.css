@@ -1,0 +1,32 @@
+:root{
+    --primary:blue;
+     --secondary:red;
+}
+body{
+    background-color: aliceblue;
+    box-sizing: border-box;
+}
+.section1{
+    background: rgb(80, 80, 209);
+    display: flex;
+}
+.para{
+    font-size: 18px;
+
+}
+imag{
+    height: 300px;
+    width: 400px;
+    min-block-size: darken;
+}
+img:hover{
+    filter: blur(10px);
+
+
+}
+@media (min-width;761px)(max-width:480px){
+    .section1
+    {
+        background-color: red;
+    }
+}

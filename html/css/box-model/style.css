@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(87, 163, 163);
+    background: url(https://media.istockphoto.com/id/1682614334/photo/teenager-boy-studying-at-home.jpg?s=612x612&w=is&k=20&c=7bqtS05lFf2ycEEm7Mg5P2r8osFtiTXXveb8A0DJ9bw=)no-repeat; 
+     background-position: fixed;
+     background-size: cover;
+     height: 100vh;
+     background-position: center;
+     width: 100vw;
+     overflow: hidden;
+}
+.box{
+    margin: 25px;
+
+}
+.box:hover{
+    background-color: rgba(8, 176, 228, 0.459);
+}
+p{
+     margin: 0px;
+     text-align:left;
+     font-size: 1.5rem;
+
+
+
+
+}
+a{
+    text-decoration: px double;
+}
